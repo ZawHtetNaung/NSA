@@ -1,0 +1,1875 @@
+      /* --------------------- end of cup and water ------------ */
+      
+      * {
+          margin: 0;
+          padding: 0;
+      }
+      
+      body {
+          margin: 0;
+          padding: 0;
+          width: 1024px;
+          margin: 0 auto;
+      }
+      
+      .wrapper {
+          margin: auto;
+          position: relative;
+      }
+      
+      .container {
+          position: relative;
+          top: 10%;
+      }
+      
+      .top-left-text {
+          position: absolute;
+          top: 40px;
+          left: -6%;
+          width: 30%;
+      }
+      
+      .left-text {
+          position: absolute;
+          top: 218px;
+          left: 11%;
+          width: 15%;
+          animation: left-text 5s;
+          animation-delay: 67s;
+          animation-fill-mode: forwards;
+      }
+      /* font */
+      
+      @font-face {
+          font-family: 'mplus';
+          font-style: normal;
+          src: url("../fonts/mplus/m-plus-rounded-1c-v10-latin-regular.eot") format("eot"), url("../fonts/mplus/m-plus-rounded-1c-v10-latin-regular.ttf") format("ttf"), url("../fonts/mplus/m-plus-rounded-1c-v10-latin-regular.woff") format("woff"), url("../fonts/mplus/m-plus-rounded-1c-v10-latin-regular.woff2") format('woff2');
+      }
+      /* sence8 */
+      
+      .nextstext {
+          display: none;
+          position: absolute;
+          top: 40px;
+          left: -7%;
+          width: 15%;
+      }
+      /* sence23 */
+      
+      @keyframes left-text {
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      /* ----------- Cup Section ------ */
+      
+      .cup-sec {
+          position: absolute;
+          top: 220px;
+          left: 27%;
+          margin: auto;
+          width: 46%;
+      }
+      
+      .explain-text {
+          display: none;
+          position: absolute;
+          top: -28%;
+          left: 7%;
+          width: 85%;
+          opacity: 0;
+          animation: explain-text 2s forwards;
+          animation-delay: 16s;
+          transition: all 2s ease-in;
+      }
+      
+      @keyframes explain-text {
+          0% {
+              opacity: 0;
+          }
+          40% {
+              opacity: 0.3;
+          }
+          60% {
+              opacity: 0.5;
+          }
+          100% {
+              opacity: 0;
+          }
+      }
+      
+      .textinborder {
+          display: none;
+          position: absolute;
+          top: -28%;
+          left: 7%;
+          width: 85%;
+          opacity: 0;
+          animation: explain-text 1s forwards;
+          animation-delay: 16s;
+          transition: all 2s ease-in;
+      }
+      
+      .hplus {
+          display: none;
+          position: absolute;
+          top: 23%;
+          left: 20%;
+          width: 10%;
+          animation: explain-text 2s forwards;
+          animation-delay: 16s;
+          transition: all 2s ease-in;
+          opacity: 0;
+      }
+      
+      .ch2coo2 {
+          display: none;
+          position: absolute;
+          top: 23%;
+          left: 55%;
+          width: 33%;
+          animation: explain-text 2s forwards;
+          animation-delay: 16s;
+          transition: all 2s ease-in;
+          opacity: 0;
+      }
+      
+      .ch3cooh {
+          display: none;
+          position: absolute;
+          top: 70%;
+          left: 8.5%;
+          width: 33%;
+          animation: explain-text 2s forwards;
+          animation-delay: 16s;
+          transition: all 2s ease-in;
+          opacity: 0;
+      }
+      
+      .bracket {
+          display: none;
+          position: absolute;
+          top: 60%;
+          left: 54.5%;
+          height: 31%;
+          animation: explain-text 2s forwards;
+          animation-delay: 16s;
+          transition: all 2s ease-in;
+          opacity: 0;
+      }
+      /* ------------ bule balls -------- */
+      
+      .blue-ball-1-2 {
+          display: block;
+          position: absolute;
+          top: 79%;
+          left: 7%;
+          width: 7%;
+      }
+      
+      .blue-ball-1 {
+          display: none;
+          position: absolute;
+          top: 79%;
+          left: 7%;
+          width: 7%;
+          opacity: 1;
+          animation: blue-ball-1 8s forwards;
+          animation-delay: 8s;
+      }
+      
+      @keyframes blue-ball-1 {
+          0% {
+              top: 79%;
+              left: 7%;
+              width: 7%;
+              opacity: 1;
+          }
+          20% {
+              top: 63%;
+              left: 16.5%;
+              width: 7%;
+              opacity: 0.3;
+          }
+          40% {
+              top: 63%;
+              left: 16.5%;
+              width: 7%;
+              opacity: 0.3;
+          }
+          60% {
+              top: 45%;
+              left: 26%;
+              width: 7%;
+              opacity: 1;
+          }
+          80% {
+              top: 45%;
+              left: 19%;
+              width: 7%;
+              opacity: 1;
+          }
+          100% {
+              top: 45%;
+              left: 19%;
+              width: 7%;
+              opacity: 0;
+          }
+      }
+      
+      .b12 {
+          display: none;
+          position: absolute;
+          top: 45%;
+          left: 19%;
+          width: 7%;
+          opacity: 0;
+          animation: b12 35s;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes b12 {
+          0% {
+              top: 79%;
+              left: 7%;
+              width: 7%;
+              opacity: 0;
+          }
+          20% {
+              top: 63%;
+              left: 16.5%;
+              width: 7%;
+              opacity: 0;
+          }
+          40% {
+              top: 63%;
+              left: 16.5%;
+              width: 7%;
+              opacity: 0;
+          }
+          60% {
+              top: 45%;
+              left: 26%;
+              width: 7%;
+              opacity: 0;
+          }
+          80% {
+              top: 45%;
+              left: 19%;
+              width: 7%;
+              opacity: 0;
+          }
+          100% {
+              top: 47%;
+              left: 43%;
+              width: 5%;
+              opacity: 100%;
+          }
+      }
+      
+      .b13 {
+          display: none;
+          position: absolute;
+          top: 45%;
+          left: 19%;
+          width: 7%;
+          opacity: 0;
+          animation: b13 20s;
+          animation-delay: 14s;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes b13 {
+          0% {
+              opacity: 100%;
+          }
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      
+      .blue-ball-2-2 {
+          display: block;
+          position: absolute;
+          top: 66%;
+          left: 34%;
+          width: 7%;
+      }
+      
+      .blue-ball-2 {
+          display: none;
+          position: absolute;
+          top: 66%;
+          left: 34%;
+          width: 7%;
+          animation: blue-ball-2 8s forwards;
+          animation-delay: 8s;
+      }
+      
+      @keyframes blue-ball-2 {
+          0% {
+              top: 66%;
+              left: 34%;
+              opacity: 1;
+          }
+          50% {
+              top: 62%;
+              left: 45%;
+              opacity: 0.8;
+          }
+          100% {
+              top: 60%;
+              left: 58.5%;
+              opacity: 1;
+          }
+      }
+      
+      .b22 {
+          display: none;
+          position: absolute;
+          top: 60%;
+          left: 58%;
+          width: 7%;
+          animation: b22 10s forwards;
+          animation-delay: 15s;
+          opacity: 1;
+      }
+      
+      @keyframes b22 {
+          0% {
+              top: 60%;
+              left: 58%;
+              opacity: 1;
+          }
+          50% {
+              top: 61%;
+              left: 48%;
+              opacity: 0.6;
+          }
+          100% {
+              opacity: 0;
+              top: 62%;
+              left: 47%;
+          }
+      }
+      /* sence17 */
+      
+      .b24 {
+          display: none;
+          position: absolute;
+          top: 62%;
+          left: 47%;
+          width: 7%;
+          animation: b24 8s forwards;
+          animation-delay: 40s;
+          opacity: 0%;
+      }
+      
+      @keyframes b24 {
+          0% {
+              top: 62%;
+              left: 47%;
+              opacity: 0.5;
+          }
+          50% {
+              top: 66%;
+              left: 45%;
+              opacity: 1;
+          }
+          100% {
+              top: 66%;
+              left: 43%;
+              width: 5%;
+              opacity: 1;
+          }
+      }
+      /* 14 & 15 sence */
+      /* bubblelight */
+      
+      .bubblelight {
+          position: absolute;
+          width: 17%;
+          height: 20%;
+          left: 42%;
+          top: 57%;
+          animation: bubblelight 10s;
+          opacity: 0;
+          animation-delay: 36s;
+          display: none;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes bubblelight {
+          0% {
+              opacity: 0%;
+          }
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      
+      .lighttext {
+          position: absolute;
+          width: 39%;
+          height: 85%;
+          left: 9%;
+          top: 287%;
+          display: none;
+          animation: lighttext 5s;
+          animation-delay: 40s;
+          opacity: 0%;
+      }
+      
+      @keyframes lighttext {
+          0% {
+              opacity: 0%;
+          }
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      
+      .ch3coo_ {
+          position: absolute;
+          width: 36%;
+          height: 85%;
+          left: 61%;
+          top: -12%;
+          animation: ch3coo_ 5s;
+          animation-delay: 40s;
+          opacity: 0%;
+          display: none;
+      }
+      
+      @keyframes ch3coo_ {
+          0% {
+              opacity: 0%;
+          }
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      
+      .h2o {
+          position: absolute;
+          width: 15%;
+          height: 69%;
+          left: 42%;
+          top: -2%;
+          animation: h2o 5s;
+          animation-delay: 40s;
+          opacity: 0%;
+          display: none;
+      }
+      
+      @keyframes h2o {
+          0% {
+              opacity: 0%;
+          }
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      
+      .labelch3coo_ {
+          position: absolute;
+          width: 39%;
+          height: 85%;
+          left: 84%;
+          top: 20%;
+          animation: labelch3coo_ 5s;
+          animation-delay: 40s;
+          opacity: 0%;
+          display: none;
+      }
+      
+      @keyframes labelch3coo_ {
+          0% {
+              opacity: 0%;
+          }
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      
+      .naplus {
+          position: absolute;
+          width: 15%;
+          height: 69%;
+          left: 12%;
+          top: -6%;
+          display: none;
+          animation: h2o 5s;
+          animation-delay: 40s;
+          opacity: 0%;
+          display: none;
+      }
+      
+      @keyframes naplus {
+          0% {
+              opacity: 0%;
+          }
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      /*         
+        .b23 {
+            display: none;
+            position: absolute;
+            top: 62%;
+            left: 58%;
+            width: 7%;
+            animation: b23 8s forwards;
+            animation-delay: 12s;
+            opacity: 0%;
+        }
+        
+        @keyframes b23 {
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+         */
+      
+      .blue-ball-3-2 {
+          position: absolute;
+          top: 80%;
+          left: 59%;
+          width: 7%;
+          display: block;
+      }
+      
+      .blue-ball-3 {
+          position: absolute;
+          top: 80%;
+          left: 59%;
+          width: 7%;
+          animation: b25 10s forwards;
+          animation-delay: 60s;
+          opacity: 100%;
+          display: none;
+      }
+      /* sence22 */
+      
+      @keyframes b25 {
+          0% {
+              top: 80%;
+              left: 59%;
+              opacity: 100%;
+          }
+          50% {
+              top: 80%;
+              left: 45%;
+              opacity: 100%;
+          }
+          100% {
+              top: 86%;
+              left: 43%;
+              width: 5%;
+              opacity: 100%;
+          }
+      }
+      /* ------------ End of bule balls -------- */
+      /* --------  Egg shape ball-------- */
+      
+      .egg-shape-ball-1 {
+          display: none;
+          position: absolute;
+          top: 77%;
+          left: 10.5%;
+          width: 26%;
+          animation: egg-shape-ball-1 8s forwards;
+          opacity: 1;
+          animation-delay: 8s;
+      }
+      
+      @keyframes egg-shape-ball-1 {
+          0% {
+              top: 77%;
+              left: 10.5%;
+              opacity: 1;
+          }
+          20% {
+              top: 60%;
+              left: 20.5%;
+              opacity: 0.2;
+          }
+          40% {
+              top: 60%;
+              left: 20.5%;
+              opacity: 0.2;
+          }
+          60% {
+              top: 43%;
+              left: 30.5%;
+              opacity: 1;
+          }
+          80% {
+              top: 39%;
+              left: 62.5%;
+              opacity: 1;
+          }
+          100% {
+              top: 39%;
+              left: 62.5%;
+              opacity: 1;
+          }
+      }
+      
+      .egg-shape-ball-1-2 {
+          display: block;
+          position: absolute;
+          top: 77%;
+          left: 10.5%;
+          width: 26%;
+          opacity: 1;
+      }
+      /* ------------  End of egg shape ball 1--------  */
+      
+      .egg-shape-ball-2 {
+          display: none;
+          position: absolute;
+          top: 64%;
+          left: 37.5%;
+          width: 26%;
+          animation: egg-shape-ball-2 8s forwards;
+          opacity: 1;
+          animation-delay: 8s;
+      }
+      
+      @keyframes egg-shape-ball-2 {
+          0% {
+              top: 64%;
+              left: 37.5%;
+              opacity: 5;
+          }
+          50% {
+              top: 60%;
+              left: 50.5%;
+              opacity: 0.2;
+          }
+          100% {
+              top: 57%;
+              left: 63%;
+              opacity: 1;
+          }
+      }
+      
+      .egg-shape-ball-2-2 {
+          display: block;
+          position: absolute;
+          top: 64%;
+          left: 37.5%;
+          width: 26%;
+          opacity: 1;
+      }
+      /* --------  end of egg shape ball 2 */
+      
+      .egg-shape-ball-2-text {
+          display: none;
+          position: absolute;
+          top: 40%;
+          left: 35.5%;
+          width: 39%;
+          opacity: 0;
+          animation: egg-shape-text 4s linear;
+      }
+      
+      @keyframes egg-shape-text {
+          0% {
+              opacity: 0.5;
+          }
+          50% {
+              opacity: 0.5;
+          }
+          100% {
+              opacity: 0;
+          }
+      }
+      
+      .egg-shape-ball-2-text-1 {
+          display: block;
+          position: absolute;
+          top: 40%;
+          left: 35.5%;
+          width: 39%;
+      }
+      
+      .egg-shape-ball-3 {
+          position: absolute;
+          top: 77%;
+          left: 62.5%;
+          width: 26%;
+      }
+      /* --------End of Egg shape ball-------- */
+      
+      .water {
+          position: absolute;
+          top: 57%;
+          left: 2.5%;
+          width: 95%;
+          height: 38.5%;
+          background-color: #edf5fc;
+          border-radius: 0px 0px 14px 14px;
+      }
+      
+      .filling-water {
+          display: none;
+          position: absolute;
+          top: 57%;
+          left: 2.5%;
+          width: 95%;
+          height: 10%;
+          background-color: #edf5fc;
+          animation: filling-water 3s both;
+          animation-delay: 8.5s;
+      }
+      
+      @keyframes filling-water {
+          0% {
+              top: 57%;
+              left: 2.5%;
+              height: 10%;
+          }
+          100% {
+              top: 25%;
+              left: 2.5%;
+              height: 32%;
+          }
+      }
+      /* ---------------------- Side Cups ------------- */
+      
+      .side-cup {
+          display: none;
+          position: absolute;
+          top: 200px;
+          left: 76%;
+          width: 18%;
+          animation: side-cup 1s;
+          animation-delay: 1s;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes side-cup {
+          0% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      
+      .side-cup-1 {
+          display: none;
+          position: absolute;
+          top: 200px;
+          left: 76%;
+          width: 18%;
+          opacity: 0;
+          animation: side-cup-1 4s;
+          animation-fill-mode: forwards;
+          animation-delay: 0s;
+          transform-origin: top left;
+          transform: rotate(-40deg);
+      }
+      
+      @keyframes side-cup-1 {
+          0% {
+              opacity: 0;
+              transform: rotate(0deg);
+          }
+          40% {
+              opacity: 0.7;
+          }
+          60% {
+              opacity: 0.3;
+          }
+          100% {
+              opacity: 0;
+              transform: rotate(-30deg);
+          }
+      }
+      
+      .side-cup-2 {
+          display: none;
+          position: absolute;
+          top: 120px;
+          left: 74%;
+          width: 25%;
+          opacity: 0;
+          animation: side-cup-2 5s;
+          animation-fill-mode: forwards;
+          animation-delay: 2.5s;
+          transform: rotate(-40deg);
+      }
+      
+      @keyframes side-cup-2 {
+          0% {
+              opacity: 0;
+              transform-origin: top left;
+              transform: rotate(0deg);
+          }
+          40% {
+              opacity: 0.5;
+          }
+          60% {
+              opacity: 0.7;
+          }
+          100% {
+              opacity: 0;
+              transform-origin: top left;
+              transform: rotate(-30deg);
+          }
+      }
+      
+      .side-cup-3 {
+          display: none;
+          position: absolute;
+          top: 36px;
+          left: 68.5%;
+          width: 25%;
+          opacity: 0;
+          animation: side-cup-3 6s;
+          animation-fill-mode: forwards;
+          animation-delay: 5.7s;
+      }
+      
+      @keyframes side-cup-3 {
+          0% {
+              opacity: 0.8;
+          }
+          30% {
+              opacity: 1;
+          }
+          60% {
+              opacity: 1;
+          }
+          100% {
+              opacity: 0;
+          }
+      }
+      
+      .side-cup-4 {
+          display: none;
+          position: absolute;
+          top: 14px;
+          left: 69%;
+          width: 22%;
+          opacity: 0;
+          animation: side-cup-4 6s forwards;
+          animation-delay: 10s;
+      }
+      
+      @keyframes side-cup-4 {
+          0% {
+              opacity: 0.5;
+          }
+          50% {
+              opacity: 1;
+          }
+          100% {
+              opacity: 0;
+          }
+      }
+      
+      .dropping-water {
+          display: none;
+          position: absolute;
+          top: 187px;
+          left: 68.5%;
+          width: 1.5%;
+          height: 246px;
+          animation: dropping-water 7s;
+          animation-fill-mode: both;
+          animation-delay: 5.5s;
+          background-color: #edf5fc;
+      }
+      
+      @keyframes dropping-water {
+          0% {
+              opacity: 0.8;
+              height: 0px;
+              width: 1.5%;
+              left: 68.5%;
+          }
+          50% {
+              opacity: 1;
+              height: 250px;
+              width: 1.5%;
+              left: 68.5%;
+          }
+          100% {
+              opacity: 0;
+              height: 250px;
+              width: 1.5%;
+              left: 68.5%;
+          }
+      }
+      /* .dropping-water {
+            display: none;
+            position: absolute;
+            top: 186px;
+            left: 67.5%;
+            width: 2%;
+            height: 0px;
+            opacity: 0;
+            animation: dropping-water 7s;
+            animation-fill-mode: both;
+            animation-delay: 5s;
+           
+        
+        }
+        
+        @keyframes dropping-water {
+            0% {
+                opacity: 1;
+                height: 0px;
+                width: 2%;
+                left: 68.3%;
+            }
+            50% {
+                opacity: 1;
+                height: 235px;
+                width: 2%;
+                left: 68.3%;
+            }
+            100% {
+                opacity: 0;
+                height: 235px;
+                width: 2%;
+                left: 68.3%;
+            }
+        } */
+      /* ----------------------// Side Cups ------------- */
+      /* ------------ end of Cup section ---------- */
+      /* -------------- Buttons ------------------ */
+      
+      button {
+          outline: none;
+          border: none;
+      }
+      
+      #startBtn {
+          display: block;
+      }
+      
+      .startBtn {
+          position: absolute;
+          width: 13%;
+          top: 578px;
+          left: 44%;
+          justify-content: center;
+          align-items: center;
+          margin-top: 20px;
+          cursor: pointer;
+      }
+      
+      .startBtn:active {
+          transform: translateY(5px);
+      }
+      
+      .startBlue:active {
+          transform: translateY(5px);
+      }
+      
+      .pauseBtn:active {
+          transform: translateY(5px);
+      }
+      
+      .resumeBtn:active {
+          transform: translateY(5px);
+      }
+      
+      .firstroundresumeBtn:active {
+          transform: translateY(5px);
+      }
+      
+      .resetBtn:active {
+          transform: translateY(5px);
+      }
+      
+      #startBlue {
+          display: block;
+      }
+      
+      .startBlue {
+          position: absolute;
+          width: 13%;
+          top: 578px;
+          left: 44%;
+          justify-content: center;
+          align-items: center;
+          margin-top: 20px;
+          cursor: pointer;
+      }
+      
+      #pauseBtn {
+          display: none;
+      }
+      
+      .pauseBtn {
+          position: absolute;
+          width: 13%;
+          top: 578px;
+          left: 44%;
+          justify-content: center;
+          align-items: center;
+          margin-top: 20px;
+          cursor: pointer;
+      }
+      
+      #resumeBtn {
+          display: none;
+      }
+      
+      .resumeBtn {
+          position: absolute;
+          width: 20%;
+          top: 578px;
+          left: 41%;
+          justify-content: center;
+          align-items: center;
+          margin-top: 15px;
+          cursor: pointer;
+      }
+      
+      #firstresumebtn {
+          display: none;
+      }
+      
+      .firstroundresumeBtn {
+          position: absolute;
+          width: 13%;
+          top: 585px;
+          left: 44%;
+          justify-content: center;
+          align-items: center;
+          margin-top: 15px;
+          cursor: pointer;
+      }
+      
+      .resetBtn {
+          position: absolute;
+          width: 13%;
+          top: 578px;
+          left: 83%;
+          justify-content: center;
+          align-items: center;
+          margin-top: 20px;
+          cursor: pointer;
+      }
+      
+      #resetBtn {
+          display: none;
+      }
+      
+      .reset_inactive_Btn {
+          position: absolute;
+          width: 13%;
+          top: 578px;
+          left: 83%;
+          justify-content: center;
+          align-items: center;
+          margin-top: 20px;
+          cursor: pointer;
+      }
+      
+      #reset_inactive_Btn {
+          display: block;
+      }
+      
+      #inactivepausebtn {
+          display: none;
+      }
+      
+      .inactivepausebtn {
+          position: absolute;
+          width: 13%;
+          top: 585px;
+          left: 44%;
+          justify-content: center;
+          align-items: center;
+          margin-top: 15px;
+          cursor: pointer;
+      }
+      /* ----------- End of Buttons ------------- */
+      /* -------copyright ------ */
+      
+      .copyright {
+          position: absolute;
+          top: 603px;
+          left: -12%;
+          width: 11%;
+      }
+      /* ------------------9 sence-------------------- */
+      
+      .texttube {
+          width: 34%;
+          height: 55%;
+          left: 48%;
+          top: 28%;
+          position: absolute;
+          opacity: 0%;
+          animation: texttube;
+          animation-duration: 6s;
+          animation-delay: 20s;
+          animation-fill-mode: forwards;
+      }
+      
+      .texttube1 {
+          width: 34%;
+          height: 55%;
+          left: 48%;
+          top: 28%;
+          position: absolute;
+          opacity: 0%;
+          animation: texttube;
+          animation-duration: 6s;
+          animation-delay: 20s;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes texttube {
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      
+      .illutube3 {
+          position: absolute;
+          width: 120%;
+          height: 120%;
+          left: -11%;
+          top: -121%;
+          animation: illutube3;
+          animation-duration: 20s;
+          animation-delay: 18s;
+          opacity: 0%;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes illutube3 {
+          20% {
+              opacity: 30%;
+              top: 7%;
+          }
+          40% {
+              opacity: 50%;
+              top: 8%;
+          }
+          100% {
+              opacity: 0%;
+              top: 10%
+          }
+      }
+      /* ------------10sence------------- */
+      
+      .bubblecoverop1 {
+          position: absolute;
+          width: 10%;
+          height: 25%;
+          top: 105%;
+          left: 44%;
+          animation: bubblecoverop1;
+          animation-duration: 5s;
+          animation-delay: 22s;
+          opacity: 0;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes bubblecoverop1 {
+          20% {
+              opacity: 0%;
+          }
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      
+      .bubblecoverop2 {
+          position: absolute;
+          width: 40%;
+          height: 40%;
+          top: 105%;
+          left: 29%;
+          animation: bubblecoverop2;
+          animation-duration: 6s;
+          animation-delay: 22s;
+          opacity: 0;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes bubblecoverop2 {
+          20% {
+              opacity: 0%;
+          }
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      
+      .bubblecoverop3 {
+          position: absolute;
+          width: 100%;
+          height: 99%;
+          top: 98%;
+          left: -1%;
+          animation: bubblecoverop3;
+          animation-duration: 15s;
+          animation-delay: 22s;
+          animation-fill-mode: forwards;
+          opacity: 0;
+      }
+      
+      @keyframes bubblecoverop3 {
+          20% {
+              opacity: 0%;
+          }
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+              top: 129%;
+              animation-duration: 8s;
+          }
+      }
+      /* 11sence */
+      
+      .b11 {
+          position: absolute;
+          width: 40%;
+          height: 0%;
+          top: 120%;
+          left: 29%;
+          animation: opb1;
+          animation-duration: 10s;
+          animation-delay: 23s;
+          opacity: 0%;
+          animation-fill-mode: forwards;
+          animation-direction: normal;
+      }
+      
+      @keyframes opb1 {
+          20% {
+              width: 40%;
+              height: 0%;
+              top: 120%;
+              left: 29%;
+          }
+          50% {
+              opacity: 50;
+              top: 195%;
+              left: 29%;
+              width: 40%;
+              height: 22%;
+          }
+          100% {
+              opacity: 100%;
+              width: 40%;
+              height: 16%;
+              top: 251%;
+              left: 32%;
+          }
+      }
+      
+      .na1 {
+          position: absolute;
+          width: 37%;
+          height: 0%;
+          top: 119%;
+          left: 30%;
+          opacity: 0%;
+          animation: opna1;
+          animation-duration: 10s;
+          animation-delay: 23s;
+          animation-fill-mode: forwards;
+          animation-direction: normal;
+      }
+      
+      @keyframes opna1 {
+          20% {
+              width: 37%;
+              height: 0%;
+              top: 119%;
+              left: 30%;
+              opacity: 20%;
+          }
+          50% {
+              opacity: 100%;
+              top: 154%;
+              width: 37%;
+              height: 40%;
+              left: 30%;
+          }
+          100% {
+              width: 37%;
+              height: 40%;
+              top: 225%;
+              left: 16%;
+              opacity: 100%;
+          }
+      }
+      
+      .textna {
+          position: absolute;
+          width: 40%;
+          height: 40%;
+          top: 150%;
+          left: 37%;
+          opacity: 0%;
+          animation: textna;
+          animation-duration: 3s;
+          animation-delay: 27s;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes textna {
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      
+      .oh1 {
+          position: absolute;
+          width: 40%;
+          height: 0%;
+          top: 119%;
+          left: 28%;
+          animation: opoh1;
+          animation-duration: 10s;
+          animation-delay: 23s;
+          opacity: 0%;
+          animation-fill-mode: forwards;
+          animation-direction: normal;
+      }
+      
+      .textoh {
+          position: absolute;
+          width: 40%;
+          height: 40%;
+          top: 172%;
+          left: 18%;
+          opacity: 0%;
+          animation: textoh;
+          animation-duration: 3s;
+          animation-delay: 27s;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes textoh {
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      
+      @keyframes opoh1 {
+          20% {
+              opacity: 20%;
+              width: 40%;
+              height: 0%;
+              top: 119%;
+              left: 28%;
+          }
+          50% {
+              opacity: 100%;
+              top: 188%;
+              width: 40%;
+              height: 35%;
+              left: 26%;
+          }
+          100% {
+              opacity: 100%;
+              top: 230%;
+              width: 40%;
+              height: 35%;
+              left: 30%;
+          }
+      }
+      /* sence17 */
+      
+      .bubblecoverop1-2 {
+          position: absolute;
+          width: 10%;
+          height: 25%;
+          top: 105%;
+          left: 44%;
+          animation: bubblecoverop1 5s;
+          animation-delay: 47s;
+          opacity: 0;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes bubblecoverop1 {
+          20% {
+              opacity: 0%;
+          }
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      
+      .bubblecoverop2-2 {
+          position: absolute;
+          width: 40%;
+          height: 40%;
+          top: 105%;
+          left: 29%;
+          animation: bubblecoverop2 6s;
+          animation-delay: 47s;
+          opacity: 0;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes bubblecoverop2 {
+          20% {
+              opacity: 0%;
+          }
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      
+      .bubblecoverop3-2 {
+          position: absolute;
+          width: 100%;
+          height: 99%;
+          top: 98%;
+          left: -1%;
+          animation: bubblecoverop3 15s;
+          animation-delay: 47s;
+          animation-fill-mode: forwards;
+          opacity: 0;
+      }
+      
+      @keyframes bubblecoverop3 {
+          20% {
+              opacity: 0%;
+          }
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+              top: 129%;
+              animation-duration: 8s;
+          }
+      }
+      /* second round opohb1 */
+      
+      .b11-2 {
+          position: absolute;
+          width: 40%;
+          height: 0%;
+          top: 120%;
+          left: 29%;
+          animation: opb1-2;
+          animation-duration: 10s;
+          animation-delay: 48s;
+          opacity: 0%;
+          animation-fill-mode: forwards;
+          animation-direction: normal;
+      }
+      
+      @keyframes opb1-2 {
+          20% {
+              width: 40%;
+              height: 0%;
+              top: 120%;
+              left: 29%;
+          }
+          50% {
+              opacity: 50;
+              top: 195%;
+              left: 29%;
+              width: 40%;
+              height: 22%;
+          }
+          100% {
+              opacity: 100%;
+              width: 40%;
+              height: 15%;
+              top: 298%;
+              left: 32%;
+          }
+      }
+      
+      .na1-2 {
+          position: absolute;
+          width: 40%;
+          height: 0%;
+          top: 119%;
+          left: 30%;
+          opacity: 0%;
+          animation: opna1-2;
+          animation-duration: 10s;
+          animation-delay: 48s;
+          animation-fill-mode: forwards;
+          animation-direction: normal;
+      }
+      
+      @keyframes opna1-2 {
+          20% {
+              width: 40%;
+              height: 0%;
+              top: 119%;
+              left: 30%;
+              opacity: 20%;
+          }
+          50% {
+              opacity: 100%;
+              top: 154%;
+              width: 40%;
+              height: 40%;
+              left: 30%;
+          }
+          100% {
+              width: 37%;
+              height: 40%;
+              top: 272%;
+              left: 16%;
+              opacity: 100%;
+          }
+      }
+      
+      .oh1-2 {
+          position: absolute;
+          width: 40%;
+          height: 0%;
+          top: 119%;
+          left: 28%;
+          animation: opoh1-2;
+          animation-duration: 10s;
+          animation-delay: 48s;
+          opacity: 0%;
+          animation-fill-mode: forwards;
+          animation-direction: normal;
+      }
+      
+      @keyframes opoh1-2 {
+          20% {
+              opacity: 20%;
+              width: 40%;
+              height: 0%;
+              top: 119%;
+              left: 28%;
+          }
+          50% {
+              opacity: 100%;
+              top: 188%;
+              width: 40%;
+              height: 35%;
+              left: 26%;
+          }
+          100% {
+              opacity: 100%;
+              width: 40%;
+              height: 35%;
+              top: 275%;
+              left: 30%;
+          }
+      }
+      /* sence22 */
+      
+      .bubblecoverop1-3 {
+          position: absolute;
+          width: 10%;
+          height: 25%;
+          top: 105%;
+          left: 44%;
+          animation: bubblecoverop1 5s;
+          animation-delay: 60s;
+          opacity: 0;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes bubblecoverop1 {
+          20% {
+              opacity: 0%;
+          }
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      
+      .bubblecoverop2-3 {
+          position: absolute;
+          width: 40%;
+          height: 40%;
+          top: 105%;
+          left: 29%;
+          animation: bubblecoverop2 6s;
+          animation-delay: 60s;
+          opacity: 0;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes bubblecoverop2 {
+          20% {
+              opacity: 0%;
+          }
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      
+      .bubblecoverop3-3 {
+          position: absolute;
+          width: 100%;
+          height: 99%;
+          top: 98%;
+          left: -1%;
+          animation: bubblecoverop3 15s;
+          animation-delay: 60s;
+          animation-fill-mode: forwards;
+          opacity: 0;
+      }
+      
+      @keyframes bubblecoverop3 {
+          20% {
+              opacity: 0%;
+          }
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+              top: 129%;
+              animation-duration: 8s;
+          }
+      }
+      /* thirdroundopohb3 */
+      
+      .b11-3 {
+          position: absolute;
+          width: 40%;
+          height: 0%;
+          top: 120%;
+          left: 29%;
+          animation: opb1-3;
+          animation-duration: 10s;
+          animation-delay: 60s;
+          opacity: 0%;
+          animation-fill-mode: forwards;
+          animation-direction: normal;
+      }
+      
+      @keyframes opb1-3 {
+          20% {
+              width: 40%;
+              height: 0%;
+              top: 120%;
+              left: 29%;
+          }
+          50% {
+              opacity: 50;
+              top: 195%;
+              left: 29%;
+              width: 40%;
+              height: 22%;
+          }
+          100% {
+              opacity: 100%;
+              width: 40%;
+              height: 15%;
+              top: 343%;
+              left: 32%;
+          }
+      }
+      
+      .na1-3 {
+          position: absolute;
+          width: 40%;
+          height: 0%;
+          top: 119%;
+          left: 30%;
+          opacity: 0%;
+          animation: opna1-3;
+          animation-duration: 10s;
+          animation-delay: 60s;
+          animation-fill-mode: forwards;
+          animation-direction: normal;
+      }
+      
+      @keyframes opna1-3 {
+          20% {
+              width: 40%;
+              height: 0%;
+              top: 119%;
+              left: 30%;
+              opacity: 20%;
+          }
+          50% {
+              opacity: 100%;
+              top: 154%;
+              width: 40%;
+              height: 40%;
+              left: 30%;
+          }
+          100% {
+              width: 37%;
+              height: 40%;
+              top: 319%;
+              left: 16%;
+              opacity: 100%;
+          }
+      }
+      
+      .oh1-3 {
+          position: absolute;
+          width: 40%;
+          height: 0%;
+          top: 119%;
+          left: 28%;
+          animation: opoh1-3;
+          animation-duration: 10s;
+          animation-delay: 60s;
+          opacity: 0%;
+          animation-fill-mode: forwards;
+          animation-direction: normal;
+      }
+      
+      @keyframes opoh1-3 {
+          20% {
+              opacity: 20%;
+              width: 40%;
+              height: 0%;
+              top: 119%;
+              left: 28%;
+          }
+          50% {
+              opacity: 100%;
+              top: 188%;
+              width: 40%;
+              height: 35%;
+              left: 26%;
+          }
+          100% {
+              opacity: 100%;
+              width: 40%;
+              height: 35%;
+              top: 321%;
+              left: 30%;
+          }
+      }
+      
+      .finaltext {
+          position: absolute;
+          width: 26%;
+          height: 74%;
+          top: 128%;
+          left: 36%;
+          animation: finaltext 5s;
+          animation-delay: 67s;
+          animation-fill-mode: forwards;
+          opacity: 0;
+      }
+      
+      @keyframes finaltext {
+          50% {
+              opacity: 50%;
+          }
+          100% {
+              opacity: 100%;
+          }
+      }
+      /* sence23 */
+      
+      .illutube3-f {
+          position: absolute;
+          width: 120%;
+          height: 120%;
+          left: -11%;
+          top: 10%;
+          animation: illutube3-f;
+          animation-duration: 60s;
+          animation-delay: 21s;
+          opacity: 0%;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes illutube3-f {
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
+      
+      .texttube-f {
+          width: 34%;
+          height: 55%;
+          left: 48%;
+          top: 28%;
+          position: absolute;
+          opacity: 0%;
+          animation: texttube-f;
+          animation-duration: 60s;
+          animation-delay: 19s;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes texttube-f {
+          50% {
+              opacity: 100%;
+          }
+          100% {
+              opacity: 0%;
+          }
+      }
